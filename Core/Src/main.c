@@ -109,7 +109,7 @@ int main(void)
   {
 	  HAL_Delay(3000);
 	  PULS(133);
-	  HAL_Delay(2000);
+	  HAL_Delay(10000);
 	  HAL_GPIO_TogglePin(DIR_GPIO_Port,DIR_Pin);
 	  PULS(133);
 	  HAL_Delay(2000);
